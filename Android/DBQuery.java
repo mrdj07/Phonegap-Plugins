@@ -45,7 +45,6 @@ public class DBQuery extends Plugin {
 		} catch (JSONException e1) {
 			e1.printStackTrace();
 		}
-		//String sql = "SELECT * FROM projects";
 		DataAccessResult retVal = null;
 		try {
 			 retVal = DataAccessObject.getData(ctx, DATABASE_NAME, sql, null);
